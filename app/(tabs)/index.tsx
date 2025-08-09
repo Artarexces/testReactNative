@@ -9,7 +9,7 @@ import { ThemedView } from '@/components/ThemedView';
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#1a282cff', dark: '#1D3D47' }}
+      headerBackgroundColor={{ light: '#1a282cff', dark: '#0ac4fdff' }}
       headerImage={
         <Image
           source={require('@/assets/images/partial-react-logo.png')}
@@ -17,7 +17,7 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
+        <ThemedText type="title">Hellow there!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
